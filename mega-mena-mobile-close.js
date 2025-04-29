@@ -1,4 +1,5 @@
-/* Max Mega Menu 
+/* Max Mega Menu
+add this to the body tag in divi theme options > intergration
  * Close the mobile menu as soon as a menu item is clicked */
 jQuery("ul.max-mega-menu").on("after_mega_menu_init", function() {
     var menu = jQuery(this);
